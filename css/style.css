@@ -31,11 +31,7 @@
 		width:100%;
 		color:#777;
 		background-color:#000;
-		user-select: none; /* supported by Chrome and Opera */
-		-webkit-user-select: none; /* Safari */
-		-khtml-user-select: none; /* Konqueror HTML */
-		-moz-user-select: none; /* Firefox */
-		-ms-user-select: none; /* Internet Explorer/Edge */		
+
 	}
 	
 	html {
@@ -2398,12 +2394,7 @@ font-weight: 400;
 	#main {
 		position:relative;
 		opacity:0;
-		user-select: none; 
-		-webkit-user-select: none; 
-		-khtml-user-select: none; 
-		-moz-user-select: none; 
-		-ms-user-select: none;
-		overflow:hidden; 
+
 	}
 	
 	.load-project-page #main, .load-project-page-carousel #main, .load-next-project #main, .load-next-page #main {
