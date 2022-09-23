@@ -824,12 +824,12 @@ font-weight: 400;
 		font-size: 12px;
 	}
 	
-	.container {
+/*	.container {
 		max-width:1280px;
 		width:100%;
 		margin:0 auto;
 		box-sizing:border-box;
-	}
+	}*/
 	
 	.post-content .container {
 		padding:0;
@@ -2434,8 +2434,8 @@ font-weight: 400;
 		box-sizing:border-box;
 		opacity: 0;
 		width:100%;
-		max-width:1380px;
-		padding:0 80px;
+		/*max-width:1380px;*/
+		padding:20px 0px;
 		margin:0 auto;
 		margin-bottom: 0;
 	}
