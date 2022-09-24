@@ -739,6 +739,12 @@ font-weight: 400;
 font-style: italic;
 font-family: 'Playfair Display', serif;
 padding-top: 10px;
+position: relative;
+bottom: 35px;
+background-color: #f2e1d1;
+width: 40%;
+left: 10%;
+padding: 20px;
     
 }
 
