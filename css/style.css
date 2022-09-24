@@ -292,6 +292,7 @@
 		margin:0;
 		position:relative;
 		display: block;
+		margin: 0 0 0rem !important;
 	}
 	
 	figure.has-parallax {		
