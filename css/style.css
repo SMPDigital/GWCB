@@ -731,6 +731,24 @@ background-color: #ede8d9 !important;
     
 }
 
+
+.oldstyle p.caption100{
+color: #353535;
+font-size: 15px;
+line-height: 20px;
+font-weight: 400;
+font-style: italic;
+font-family: 'Playfair Display', serif;
+padding-top: 10px;
+position: relative;
+bottom: 35px;
+background-color: #f2e1d1;
+width: 100%;
+padding: 20px;
+    
+}
+
+
 .oldstyle p.caption{
 color: #353535;
 font-size: 15px;
