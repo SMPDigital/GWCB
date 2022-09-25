@@ -748,6 +748,22 @@ padding: 20px;
     
 }
 
+.oldstyle p.caption2{
+color: #353535;
+font-size: 15px;
+line-height: 20px;
+font-weight: 400;
+font-style: italic;
+font-family: 'Playfair Display', serif;
+padding-top: 10px;
+position: relative;
+bottom: 35px;
+background-color: #f2e1d1;
+width: 70%;
+left: 10%;
+padding: 20px;
+    
+}
 
 
 .modstyle #main-page-content p{
