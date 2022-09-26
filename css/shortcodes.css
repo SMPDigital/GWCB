@@ -1055,7 +1055,7 @@
 		cursor: pointer;
 		padding: 0px;
 		margin-bottom:0;
-		border-top: 1px solid rgba(255,255,255,0.2);
+		border-top: 1px solid rgba(83,83,83,0.20);
 		color: #999;
 		font-family: 'Roboto Slab', serif;
 		font-weight:500;	
@@ -1105,7 +1105,7 @@
 	}
 	
 	.light-content .accordion dt span {
-		color:#fff;
+		color:#2B2B2B;
 	}
 	
 	.accordion .accordion-content {
