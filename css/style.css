@@ -732,6 +732,53 @@ background-color: #ede8d9 !important;
 }
 
 
+.oldstyle table{
+	border: none;
+    
+}
+
+.oldstyle table td{
+border: none;
+padding: 4px 2px 4px 2px;
+color: #353535;
+font-size: 18px;
+line-height: 25px;
+font-weight: 400;
+font-family: 'Playfair Display', serif;
+	
+    
+
+}
+
+.oldstyle table td.linebtm{border-bottom: 2px solid rgba(0,0,0,1.00);
+color: rgba(0,0,0,1.00) !important;
+font-weight: 600;
+padding-bottom: 10px;
+	
+	
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 1199px) {
+	.oldstyle table td{
+border: none;
+padding: 4px 2px 4px 2px;
+color: #353535;
+font-size: 16px;
+line-height: 22px;
+font-weight: 400;
+font-family: 'Playfair Display', serif;
+	
+    
+}
+	
+}
+
+
+
 .oldstyle p.caption100{
 color: #353535;
 font-size: 15px;
