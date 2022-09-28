@@ -6,6 +6,11 @@
 @import url("assets.css");
 
 
+
+
+
+
+
 /*------------------------------------------------------------------
 
 01. General Styles
@@ -489,7 +494,7 @@
 	}
 		
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Libre Baskerville', serif;
 		font-weight:500;
 		color:#000;
 		margin-bottom:20px;
@@ -562,7 +567,7 @@
 
 	.oldstyle h1, .oldstyle h2, .oldstyle h3, .oldstyle h4, .oldstyle h5, .oldstyle h6 {
 		color: #757575;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Libre Baskerville', serif;
 	}
 
 .oldstyle h1{
@@ -597,7 +602,7 @@ margin-bottom: 10px;
 
 	.modstyle h1, .modstyle h2, .modstyle h3, .modstyle h4, .modstyle h5, .modstyle h6 {
 		color: #484848;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Libre Baskerville', serif;
 	}
 
 .modstyle h1{
@@ -740,7 +745,7 @@ font-weight: 400;
 font-size: 17px;
 line-height: 24px;
 font-weight: 400;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Libre Baskerville', serif;
     
 }
 .oldstyle {
@@ -761,7 +766,7 @@ color: #353535;
 font-size: 18px;
 line-height: 25px;
 font-weight: 400;
-font-family: 'Playfair Display', serif;
+font-family: 'Libre Baskerville', serif;
 	
     
 
@@ -787,7 +792,7 @@ color: #353535;
 font-size: 16px;
 line-height: 22px;
 font-weight: 400;
-font-family: 'Playfair Display', serif;
+font-family: 'Libre Baskerville', serif;
 	
     
 }
@@ -802,7 +807,7 @@ font-size: 15px;
 line-height: 20px;
 font-weight: 400;
 font-style: italic;
-font-family: 'Playfair Display', serif;
+font-family: 'Libre Baskerville', serif;
 padding-top: 10px;
 position: relative;
 bottom: 35px;
@@ -819,7 +824,7 @@ font-size: 15px;
 line-height: 20px;
 font-weight: 400;
 font-style: italic;
-font-family: 'Playfair Display', serif;
+font-family: 'Libre Baskerville', serif;
 padding-top: 10px;
 position: relative;
 bottom: 35px;
@@ -836,7 +841,7 @@ font-size: 15px;
 line-height: 20px;
 font-weight: 400;
 font-style: italic;
-font-family: 'Playfair Display', serif;
+font-family: 'Libre Baskerville', serif;
 padding-top: 10px;
 position: relative;
 bottom: 35px;
@@ -1722,7 +1727,7 @@ border-bottom: 1px solid rgba(0,0,0,1.00);	}
 	}
 	
 	.preloader-intro {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Libre Baskerville', serif;
 		font-weight:500;
 		position: relative;
 		display:block;
@@ -3981,7 +3986,7 @@ right: -32px;
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Libre Baskerville', serif;
 	color: #000;
 }
 
