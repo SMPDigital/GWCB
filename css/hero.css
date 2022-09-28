@@ -122,7 +122,6 @@
 	}
 	
 	.hero-title, .next-hero-title {
-		font-family: 'Playfair Display', serif;
 		font-weight:700;
 		position: relative;
 		display:block;
@@ -131,7 +130,7 @@
 		vertical-align: top;
 		width:auto;
 		font-size:65px;
-		line-height:70px;
+		line-height:80px;
 		overflow:hidden;
 		padding: 0;
 		color:#000;		
@@ -315,7 +314,7 @@ line-height: 45px;
 	
 	.hero-subtitle, .next-hero-subtitle {
 font-size: 32px;
-font-family: 'Playfair Display', serif;
+/*font-family: 'Playfair Display', serif;*/
 font-weight: 500;
 line-height: 40px;
 margin-bottom: 0px;
