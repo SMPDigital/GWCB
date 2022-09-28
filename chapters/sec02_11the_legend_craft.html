@@ -18,6 +18,7 @@
     
 	
     <!-- InstanceBeginEditable name="head" -->
+    	<link rel="stylesheet" href="../css/fancybox.min.css">
 
     <!-- InstanceEndEditable -->    
     
@@ -207,15 +208,25 @@ The Way We See It</div></a>
 	
 	
 	
-    <div class="col-md-6 ">
+    <div class="col-md-6  ">
 
 
 
 		<p class="pb-3">As a team we have built a replica of how we think cities will be in the  future. For this we have used Minecraft as a platform to construct a city to showcase the sustainability and eco-friendly environment 25 years from now. From modern technology adapted farming to eco-friendly house designs and buildings, we have provided a visual as to what will be  foreseen in the future. We have also shown a cleaner, better infrastructure for a city, with roads, highways and more!</p>			
 		
-			                                <figure class="has-parallax has-animation has-scale-vertical pt-5" data-delay="100">
-                                    <img src="../images/the_legend_craft_im2.jpg" alt="Image Title">
-                                </figure>	
+		
+		
+<ul class="list-unstyled video-list-thumbs">
+	<li>
+		<a data-fancybox href="#myVideo">
+			<img src="../images/the_legend_craft_im2.jpg" alt="" class="img-responsive" height="800" />
+			<span class="fa fa-play-circle-o"></span>
+		</a>
+	</li>
+
+</ul>		
+		
+
 	 </div>
 	
 	
@@ -260,7 +271,15 @@ The Way We See It</div></a>
 							
 							
 
-                            
+                                     
+                        
+      <video width="852" height="480" controls id="myVideo" style="display:none;">
+        <source src="../videos/the_legend_craft.mp4" type="video/mp4">
+        <source src="../videos/the_legend_craft.webm" type="video/webm">
+        <source src="../videos/the_legend_craft.ogv" type="video/ogg">
+        Your browser doesn't support HTML5 video tag.
+      </video>                        
+               
      
                             
                             
@@ -369,7 +388,11 @@ The Way We See It</div></a>
 
 
 	<!-- InstanceBeginEditable name="bottom js area" -->
-
+<script src="../js/fancybox.min.js"></script> 
+<script>
+	
+	$('.fancybox').fancybox();
+	</script>	
     
 
 	<!-- InstanceEndEditable -->  

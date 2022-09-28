@@ -4080,7 +4080,7 @@ border: 15px solid rgba(255,255,255,0.5) ;
 
 
 
-.video-list-thumbs{ padding-top: 40px;}
+.video-list-thumbs{ padding-top: 40px; margin: 0 0 0px 0px;}
 .video-list-thumbs > li{
     margin-bottom:12px;
 }
@@ -4116,13 +4116,17 @@ border-radius: 10px;
 }
 .video-list-thumbs .fa{
 font-size: 70px;
-opacity: 0.6;
+color: white;
+opacity: 0.9;
 position: absolute;
-left: 50%;
-top: 50%;
+left: 44%;
+top: 40%;
 text-shadow: 0 1px 3px rgba(0,0,0,.5);
 transition: all 500ms ease-in-out;
 line-height: 0;
+display: inline-block;
+text-align: center;
+line-height: 70px;
 }
 .video-list-thumbs > li > a:hover .fa{
 	color:#fff;
