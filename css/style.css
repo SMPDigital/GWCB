@@ -738,7 +738,7 @@ font-weight: 400;
 .oldstyle p{
     color: #353535;
 font-size: 17px;
-line-height: 22px;
+line-height: 24px;
 font-weight: 400;
     font-family: 'Playfair Display', serif;
     
@@ -851,7 +851,7 @@ padding: 20px;
 .modstyle #main-page-content p{
 color: #353535;
 font-size: 17px;
-line-height: 22px;
+line-height: 24px;
 font-weight: 400;
 margin-bottom: 12px;
 margin-top: 2px;
@@ -1056,6 +1056,13 @@ font-weight: 400;
 		max-width: 1000%!important;
 		width: 100vw!important;
 	}
+
+
+	.white-section-wrapper {
+border-top: 1px solid rgba(0,0,0,1.00);
+border-bottom: 1px solid rgba(0,0,0,1.00);	}
+	
+
 	
 	.white-section-container, .dark-section-container {
 		position: relative;
@@ -3883,8 +3890,7 @@ font-weight: 400;
 #featured-item_container {
 	padding: 35px 5px 35px 5px;
 	background-color: white;
-	border-top: 1px solid rgba(0,0,0,1.00);
-		border-bottom: 1px solid rgba(0,0,0,1.00);
+
 }
 
 #featured-item_container a {
