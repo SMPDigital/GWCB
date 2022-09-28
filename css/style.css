@@ -580,20 +580,20 @@ color: rgb(57, 57, 57) !important;
 }
 
 .oldstyle h2{
-font-size: 35px;
+font-size: 27px;
 font-weight: 700;
-line-height: 50px;
+line-height: 32px;
 margin-top: 5px;
 margin-bottom: 5px;
-color: #a48f7c !important;
+color: #353535 !important;
 
 }
 
 
 .oldstyle h3{
-font-size: 25px;
+font-size: 23px;
 font-weight: 700;
-line-height: 40px;
+line-height: 28px;
 margin-bottom: 10px;
 
 }
@@ -617,9 +617,9 @@ color: rgb(57, 57, 57) !important;
 
 .modstyle h2{
 font-family: 'Poppins', sans-serif;    
-font-size: 30px;
+font-size: 27px;
 font-weight: 700;
-line-height: 35px;
+line-height: 32px;
 margin-top: 5px;
 margin-bottom: 5px;
 color: rgba(66,162,174,1.00) !important;
@@ -629,9 +629,9 @@ color: rgba(66,162,174,1.00) !important;
 
 .modstyle h3{
   font-family: 'Poppins', sans-serif;  
-font-size: 25px;
+font-size: 23px;
 font-weight: 700;
-line-height: 40px;
+line-height: 28px;
 margin-bottom: 10px;
 
 }
@@ -711,13 +711,35 @@ font-size: 37px;
 font-weight: 700;
 line-height: 42px;
 margin-bottom: 0px;
-color: rgb(57, 57, 57) !important;
 
 }	
 	
 
+.oldstyle h2{
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+
+
+.oldstyle h3{
+font-size: 25px;
+font-weight: 700;
+line-height: 40px;
+margin-bottom: 10px;
+
+}
 	
-	
+.modstyle h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}	
 	
 	
 	
@@ -728,6 +750,27 @@ color: rgb(57, 57, 57) !important;
 
 
 @media only screen and (max-width: 991px) {	
+	
+.oldstyle h2{
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}	
+	
+	
+.modstyle h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}	
+		
+	
+	
 	
 .modstyle h5{
 font-family: 'Poppins', sans-serif;
@@ -740,6 +783,9 @@ width: 100%;
 padding: 2% 2% 0% 2%; 
 
 }	
+	
+	
+	
 	
 	
 }
@@ -764,6 +810,28 @@ margin-bottom: 10px;
 
 }
 		
+	
+.oldstyle h2{
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}	
+	
+	
+.modstyle h2 {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}	
+		
+	
+	
+	
 	
 	
 	
@@ -1021,8 +1089,8 @@ padding-top: 10px;
 	
     
     	.light-content p {
-font-size: 15px;
-line-height: 20px;
+font-size: 16px;
+line-height: 24px;
 font-weight: 400;
 	}
     
@@ -4163,7 +4231,6 @@ line-height: 16px;
 	line-height: 17px;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Basis Grotesque Pro', Helvetica, Arial, sans-serif !important;
 	color: #000000;
 }
 	
