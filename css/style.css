@@ -566,9 +566,9 @@
 	}
 
 .oldstyle h1{
-font-size: 70px;
+font-size: 60px;
 font-weight: 700;
-line-height: 82px;
+line-height: 65px;
 margin-bottom: 0px;
 color: rgb(57, 57, 57) !important;
 
@@ -596,7 +596,7 @@ margin-bottom: 10px;
 
 
 	.modstyle h1, .modstyle h2, .modstyle h3, .modstyle h4, .modstyle h5, .modstyle h6 {
-		color: ##484848;
+		color: #484848;
         font-family: 'Playfair Display', serif;
 	}
 
@@ -639,7 +639,7 @@ line-height: 22px;
 margin-bottom: 10px;
 text-align: center;
 width: 100%;
-padding: 2% 20% 0% 20%; 
+padding: 2% 10% 0% 10%; 
 
 }
 
