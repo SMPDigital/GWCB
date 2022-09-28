@@ -1946,6 +1946,7 @@ border-bottom: 1px solid rgba(0,0,0,1.00);	}
 			line-height:20px;
 			display:block;
 			overflow:hidden;
+			text-decoration: none;
 			-webkit-transition: all 0.15s ease-in-out;
 			transition: all 0.15s ease-in-out;
 		}
