@@ -596,7 +596,7 @@ margin-bottom: 10px;
 
 
 	.modstyle h1, .modstyle h2, .modstyle h3, .modstyle h4, .modstyle h5, .modstyle h6 {
-		color: #757575;
+		color: ##484848;
         font-family: 'Playfair Display', serif;
 	}
 
@@ -612,9 +612,9 @@ color: rgb(57, 57, 57) !important;
 
 .modstyle h2{
 font-family: 'Poppins', sans-serif;    
-font-size: 35px;
+font-size: 30px;
 font-weight: 700;
-line-height: 50px;
+line-height: 35px;
 margin-top: 5px;
 margin-bottom: 5px;
 color: rgba(66,162,174,1.00) !important;
