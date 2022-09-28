@@ -3258,7 +3258,7 @@ right: -32px;
 		overflow-y: scroll;
 		position: relative;
 		height: 100%;
-		padding: 40px 0;
+		padding: 70px 0 40px 0;
 		padding-right: 30px;
 		width: calc(100% + 30px);
 		box-sizing: border-box;
@@ -3275,6 +3275,8 @@ right: -32px;
 		padding:20px 0;		
 		-webkit-transition: all 0.2s ease-in 0.6s;
 		transition: all 0.2s ease-in 0.6s;
+		position: absolute;
+top: 0;
 	}
 	
 	nav.open {
@@ -3335,9 +3337,12 @@ right: -32px;
 		font-weight:500;
 		font-size:50px;
 		line-height:70px;
-		padding:0;
+	
 		-webkit-transition: all .1s ease-in-out 0s;
 		transition: all .1s ease-in-out 0s;
+		text-decoration: none;
+		
+		padding: 15px 0px 15px 0px;
 	}
 	
 	.flexnav li a {
@@ -3365,16 +3370,17 @@ right: -32px;
 	}
 	
 	.flexnav li ul li a {
-		padding: 10px 0;
-		font-weight: 500;
-		font-family: 'Poppins', sans-serif;
-		text-transform:none;
-		font-size: 14px;
-		line-height: 14px;
-		border-top: none;
-		color:#fff;
-		opacity:0.4;
-		-webkit-text-stroke:none;
+padding: 5px 0;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+text-transform: none;
+font-size: 15px;
+line-height: 18px;
+border-top: none;
+color: #fff;
+opacity: 0.4;
+-webkit-text-stroke: none;
+text-decoration: none;
 	}
 	
 	.flexnav li ul li:hover a, .flexnav li ul li a.active{
@@ -3552,9 +3558,22 @@ right: -32px;
 	}
 	
 	.flexnav li a {
-		font-size: 40px;
-		line-height: 55px;
+		font-size: 32px;
+		line-height: 46px;
 	}
+	
+	
+	.flexnav li ul li a {
+padding: 5px 0;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+	}	
+	
+	
+	
+	
 	
 	li.buy-item a {
 		color:#fff;
@@ -3791,15 +3810,28 @@ right: -32px;
 	}
 	
 	.button-wrap.right.menu {
-		right: -10px;
+		right: 0px;
 	}
 	
 	.flexnav {
     	padding: 0 20px;
 	}
 	
+	
+	
+	.flexnav li a {
+		font-size: 23px;
+		line-height: 27px;
+	}
+		
+
+	
+	
 	.flexnav li ul li a {
     	padding: 5px 0;
+		font-weight: 500;
+font-size: 14px;
+line-height: 16px;
 	}
 	
 	li.buy-item a {
