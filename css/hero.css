@@ -130,12 +130,31 @@
 		display:inline-block;
 		vertical-align: top;
 		width:auto;
-		font-size:75px;
-		line-height:100px;
+		font-size:65px;
+		line-height:70px;
 		overflow:hidden;
 		padding: 0;
 		color:#000;		
 	}
+
+
+	
+	.oldstyle .hero-title, .next-hero-title {
+		font-family: 'Libre Baskerville', serif;
+		font-weight:700;
+		position: relative;
+		display:block;
+		margin-bottom:0px;
+		display:inline-block;
+		vertical-align: top;
+		width:auto;
+		font-size:65px;
+		line-height:70px;
+		overflow:hidden;
+		padding: 0;
+		color:#000;		
+	}
+
 	
 
 	.modstyle .hero-title, .next-hero-title {
