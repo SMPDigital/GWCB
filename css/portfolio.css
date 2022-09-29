@@ -1097,9 +1097,9 @@ z-index: 10;
 position: absolute;
 bottom: 0px;
 height: auto;
-padding: 50px 20px 20px 110px;
+padding: 50px 20px 30px 110px;
 box-sizing: border-box;
-width: 60%;
+width: 55%;
 right: 0px;
 
 	}    
@@ -1146,15 +1146,33 @@ padding: 10px 0px;
         
 	.item-caption2 {
 z-index: 10;
-padding: 50px 20px 20px 110px;
-width: 60%;
+padding: 50px 20px 30px 110px;
+width: 57%;
 right: 0px;
+bottom: 20px;
 
 	}          
         
         
         
     }
+
+
+    @media only screen and (max-width: 767px) {
+			.item-caption2 {
+z-index: 10;
+padding: 50px 20px 30px 110px;
+width: 62%;
+right: 0px;
+bottom: 0px;
+
+	}     
+		
+}
+
+
+
+
 
 
     @media only screen and (max-width: 600px) {
