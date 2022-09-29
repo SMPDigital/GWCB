@@ -2429,7 +2429,7 @@ border-bottom: 1px solid rgba(0,0,0,1.00);	}
 			font-weight: 500;
 			font-size: 45px;
 			line-height: 85px;
-			font-family: 'Playfair Display', serif;
+			font-family: 'Baskervville', serif;
 			padding:0;
 			-webkit-transition: all .1s ease-in-out 0s;
 			transition: all .1s ease-in-out 0s;
@@ -3539,7 +3539,7 @@ top: 0;
 	}
 	
 	.flexnav li a {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Baskervville', serif;
 		font-weight:500;
 		font-size:50px;
 		line-height:70px;
