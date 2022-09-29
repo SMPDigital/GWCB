@@ -131,7 +131,7 @@
 		width:auto;
 		font-size:65px;
 		line-height:80px;
-		overflow:hidden;
+		/*overflow:hidden;*/
 		padding: 0;
 		color:#000;		
 	}
@@ -139,7 +139,7 @@
 
 	
 	.oldstyle .hero-title, .next-hero-title {
-font-family: 'Libre Baskerville', serif;
+font-family: 'Baskervville', serif;
 font-weight: 700;
 position: relative;
 display: block;
@@ -322,7 +322,7 @@ width: 100%;
 z-index: 10;
 position: relative;
 display: block;
-overflow: hidden;
+/*overflow: hidden;*/
 margin-left: 0;
 	}
 	

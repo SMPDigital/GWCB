@@ -890,7 +890,7 @@ height: 40vw;
 		opacity:0;
 		-webkit-transition: all 0.2s ease-out 0.4s;
 		transition: all 0.2s ease-out 0.4s;	
-        font-family: 'Libre Baskerville', serif;
+        font-family: 'Baskervville', serif;
         
  background: rgb(0,0,0);
 background: linear-gradient(360deg, rgba(0,0,0,0.9191877434567577) 0%, rgba(0,0,0,0.6978992280505952) 20%, rgba(0,212,255,0) 100%);         
@@ -914,7 +914,7 @@ pointer-events: none;
 opacity: 1;
 -webkit-transition: all 0.2s ease-out 0.4s;
 transition: all 0.2s ease-out 0.4s;
-font-family: 'Libre Baskerville', serif;
+font-family: 'Baskervville', serif;
 	}
 
 
