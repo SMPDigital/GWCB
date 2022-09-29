@@ -1092,7 +1092,7 @@
 	}
 	
 	.accordion dt {
-		font-size:24px;
+		font-size:22px;
 	}
 
 @media only screen and (max-width: 1199px) {
@@ -1106,7 +1106,7 @@
 
 	
 	.accordion dt span {
-		max-width: 40%;
+		max-width: 80%;
 		position: relative;
 		overflow: hidden;
 		display: block;
@@ -1123,7 +1123,7 @@
 		line-height: 28px;
 		-webkit-transform:translateY(-65px);
 		transform: translateY(-65px);
-		padding-left: 40%;
+		padding-left: 44%;
 		padding-right: 80px;
 		z-index: 0;
 		position: relative;
@@ -1689,7 +1689,7 @@
 	}
 	
 	.accordion dt span {
-		max-width: none;
+		max-width: 80%;
 	}
 	
 	.accordion .accordion-content {
