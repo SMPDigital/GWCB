@@ -1092,13 +1092,13 @@
 	}
 	
 	.accordion dt {
-		font-size:22px;
+		font-size:19px;
 	}
 
 @media only screen and (max-width: 1199px) {
 	
 		.accordion dt {
-		font-size:22px;
+		font-size:18px;
 	}
 	
 }
