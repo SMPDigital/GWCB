@@ -38,10 +38,11 @@ var filename = url.substr(url.lastIndexOf('/') + 1);
 								pagelist[29] = "sec02_15the_binary_descendant.html";
 								pagelist[30] = "sec02_16virtual_reunion.html";
 								pagelist[31] = "chairmans_message.html";
+								pagelist[32] = "about_this_book.html";
 
 								
 var minv = 0;
-var maxv = 32;
+var maxv = 33;
 
 function arraySearch(arr,val) {
     for (var i=0; i<arr.length; i++)
@@ -126,6 +127,9 @@ function pageDet(pren,nxtn){
     if(nxtn == 30){pagetitle2 = "Virtual Reunion", pageurl2 =  '../chapters/' + pagelist[30]}
 	if(pren == 31){pagetitle1 = "Chairman’s Message", pageurl1 =  '../chapters/' + pagelist[31]}
     if(nxtn == 31){pagetitle2 = "Chairman’s Message", pageurl2 =  '../chapters/' + pagelist[31]}
+	if(pren == 32){pagetitle1 = "About This Book", pageurl1 =  '../chapters/' + pagelist[32]}
+    if(nxtn == 32){pagetitle2 = "About This Book", pageurl2 =  '../chapters/' + pagelist[32]}
+	
 	
 	
 	
