@@ -7,22 +7,6 @@
 
 
 
-
-
-
-
-/*------------------------------------------------------------------
-
-01. General Styles
-02. Magic Cursor
-03. Page Preloader
-04. Header Elements
-05. Main Content 
-06. Footer Elements
-07. Responsive Media Querries
-
--------------------------------------------------------------------*/
-
 	
 /*--------------------------------------------------
 	01. General Settings
@@ -2442,7 +2426,7 @@ border-bottom: 1px solid rgba(0,0,0,1.00);	}
 		}
 		
 		.fullscreen-menu .flexnav:hover li a, .fullscreen-menu .flexnav.hover li a {
-			opacity:0.3;
+			opacity:0.5;
 		}
 		
 		.fullscreen-menu .flexnav li:hover a, .fullscreen-menu .flexnav li a.active{
@@ -2450,7 +2434,7 @@ border-bottom: 1px solid rgba(0,0,0,1.00);	}
 		}
 		
 		.fullscreen-menu .flexnav:hover li ul li a {
-			opacity:0.3;
+			opacity:0.8;
 		}
 		
 		.fullscreen-menu .flexnav:hover li ul li a.active, .fullscreen-menu .flexnav:hover li ul li a:hover {
@@ -3558,7 +3542,7 @@ top: 0;
 	}
 	
 	.flexnav:hover li a {
-		opacity:0.3;
+		opacity:0.6;
 	}
 	
 	.flexnav li:hover a, .flexnav li a.active{
@@ -3566,7 +3550,7 @@ top: 0;
 	}
 	
 	.flexnav:hover li ul li a {
-		opacity:0.3;
+		opacity:0.6;
 	}
 	
 	.flexnav:hover li ul li a.active, .flexnav:hover li ul li a:hover {
@@ -3586,7 +3570,7 @@ font-size: 15px;
 line-height: 18px;
 border-top: none;
 color: #fff;
-opacity: 0.4;
+opacity: 0.6;
 -webkit-text-stroke: none;
 text-decoration: none;
 	}
@@ -4225,11 +4209,12 @@ line-height: 16px;
 .desc h2 {
     padding: 0px;
     margin: 5px 0px 5px 0px;
-	font-size: 12px;
+	font-size: 14px;
     line-height: 25px;
 	font-family: 'Poppins', sans-serif;
 	color: #000000;
 	font-weight: 500;
+	font-style: normal;
 
 
 }
