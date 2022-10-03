@@ -424,6 +424,7 @@
 		opacity: 1!important;
 		-webkit-transition: translateY(0px)!important;
 		transform: translateY(0px)!important;
+		border-top: 1px solid rgb(45, 45, 45) !important;
 	}
 	
 	hr.white-line {
@@ -4012,7 +4013,7 @@ line-height: 16px;
 	
 	
 	.flexnav li a {
-		font-size: 23px;
+		font-size: 22px;
 		line-height: 27px;
 	}
 		

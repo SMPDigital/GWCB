@@ -129,6 +129,35 @@
 		padding:20px 0;
 		z-index:2
 	}
+
+
+	.flexnav li a.abtb{
+font-size: 25px !important;
+line-height: 60px !important;
+	}
+
+@media only screen and (max-width: 767px){
+		.flexnav li a.abtb{
+font-size: 20px !important;
+line-height: 50px !important;
+	}
+	
+	
+	}
+
+
+@media only screen and (max-width: 479px){
+		.flexnav li a.abtb{
+font-size: 16px !important;
+line-height:30px !important;
+	}
+	
+	
+	}
+
+
+
+
 	.oldie .flexnav li ul.open ul.open,.oldie .flexnav ul li:hover ul{
 		margin-left:100%;
 		top:0
