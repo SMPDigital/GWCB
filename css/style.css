@@ -602,9 +602,9 @@ color: rgb(57, 57, 57) !important;
 
 .modstyle h2{
 font-family: 'Poppins', sans-serif;    
-font-size: 27px;
+font-size: 25px;
 font-weight: 700;
-line-height: 32px;
+line-height: 30px;
 margin-top: 5px;
 margin-bottom: 5px;
 color: rgba(66,162,174,1.00) !important;
@@ -5072,16 +5072,23 @@ background-color: #42a2ae;
 
 
 .videpanel{
-background-color: rgb(54, 88, 158);
-padding: 10px;
+background-color: rgba(255,255,255,1.00);
+padding: 0px;
 color: rgb(255, 255, 255);
 text-align: center;
 font-size: 15px;
 font-weight: 500;
 font-family: 'Poppins', sans-serif;
 line-height: 20px;
-border-bottom: 4px solid #e62b36;
+border-bottom: 5px solid #e62b36;
+border-top: 5px solid #244a97;
 
+}
+
+
+.videpanel .item {
+  margin: 0px;
+    margin-bottom: 0px;
 }
 
 .videpanel a {
@@ -5097,15 +5104,93 @@ color: rgb(255, 255, 255);
 
 .videpanel .fa{
 color: rgb(255, 255, 255);
-font-size: 40px;
-line-height: 44px;
+font-size: 70px;
+line-height: 75px;
 vertical-align: middle;
-padding-right: 8px;}
+padding-right: 8px;
+
+}
+
+.videpanel h1{
+color: rgb(255, 255, 255);
+font-size: 35px;
+line-height: 40px;
+
+}
+
+@media only screen and (max-width: 1199px) {
+	
+.videpanel .fa{
+font-size: 60px;
+line-height: 65px;
+
+}	
+	
+	
+	.videpanel h1{
+font-size: 30px;
+line-height: 35px;
+
+}
+	
+}
+
+
+
+@media only screen and (max-width: 991px) {
+	
+	.videpanel .fa{
+font-size: 50px;
+line-height: 55px;
+
+}	
+	
+	
+	.videpanel h1{
+font-size: 27px;
+line-height: 32px;
+
+}
+	
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	.videpanel .fa{
+font-size: 40px;
+line-height: 45px;
+
+}	
+	
+	
+	.videpanel h1{
+font-size: 20px;
+line-height: 23px;
+
+}
+	
+}
+
 
 
 
 @media only screen and (max-width: 480px) {
 	
+	
+	.videpanel .fa{
+font-size: 25px;
+line-height: 30px;
+
+}	
+	
+	
+	.videpanel h1{
+font-size: 16px;
+line-height: 20px;
+
+}	
 	.videpanel{
 font-size: 12px;
 font-weight: 500;

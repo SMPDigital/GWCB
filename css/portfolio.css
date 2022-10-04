@@ -899,6 +899,57 @@ background: linear-gradient(360deg, rgba(0,0,0,0.9191877434567577) 0%, rgba(0,0,
 	
 
 
+.videpanel .item-caption {
+z-index: 10;
+position: absolute;
+bottom: 0px;
+height: 100%;
+padding: 7% 0;
+box-sizing: border-box;
+width: 100%;
+cursor: default;
+pointer-events: none;
+opacity: 0;
+-webkit-transition: all 0.2s ease-out 0.4s;
+transition: all 0.2s ease-out 0.4s;
+font-family: 'Baskervville', serif;
+background: rgb(0,0,0, 0.5);
+	
+	
+
+}
+
+@media only screen and (max-width: 991px) {
+	.videpanel .item-caption {
+height: 100%;
+padding: 6% 0;
+	
+
+}
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	.videpanel .item-caption {
+height: 100%;
+padding: 5% 0;
+	
+
+}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	.videpanel .item-caption {
+height: 100%;
+padding: 2.3% 0;
+	
+
+}
+	
+}
+
 
 	.item-caption2 {
 z-index: 10;
